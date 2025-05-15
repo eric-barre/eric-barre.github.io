@@ -101,7 +101,6 @@ Drag and drop assets between sections to rearrange them as you like.
 ## Delete assets in a section
 
 
-{% tab title="Vectice API" %}
 You can delete assets within a specified section of the iteration using the API:
 
 ```python
@@ -132,9 +131,7 @@ my_model = Model(name="my_model")
 iteration.log(my_model)
 iteration.log("Testing this new linear regression model.")
 ```
-{% endtab %}
 
-{% tab title="Vectice Web App" %}
 Inside the Web App, to add a note to your iteration:
 
 1. Go to your phase iteration
