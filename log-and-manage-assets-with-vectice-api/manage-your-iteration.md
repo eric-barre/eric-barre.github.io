@@ -4,15 +4,12 @@ Once you start logging assets, you can manage them seamlessly through the API or
 
 ## Update iteration status
 
-{% tabs %}
-{% tab title="Vectice API" %}
 Once you start an iteration in the API, its status automatically changes to "In progress." Once you are complete, you can update your iteration status by marking it complete.&#x20;
 
 
 Once an iteration is complete, you cannot reorganize the assets in the App. To reorganize, change the iteration status back to **In Progress** in the app.
 
 
-{% code fullWidth="true" %}
 ```python
 iteration.complete()
 ```
@@ -41,9 +38,6 @@ iteration.log(my_model, section="Model Used")
 # Iteration is completed
 iteration.complete()
 ```
-{% endtab %}
-
-{% tab title="Vectice Web App" %}
 To update an iteration in the Vectice Web App
 
 1. Go to your phase iteration
@@ -51,15 +45,12 @@ To update an iteration in the Vectice Web App
 3. Choose your updated status
 
 <figure><img src="../.gitbook/assets/iter-status.png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-{% endtabs %}
 
 ## Create sections
 
 Sections in Vectice function like headers, helping you identify and organize assets. This improves how you access and manage datasets, models, notes, and graphs within your projects.
 
-{% tabs %}
-{% tab title="Vectice API" %}
+
 To define a section to organize your assets using the Vectice API...
 
 ```python
@@ -82,9 +73,7 @@ model = Model(metrics, properties, attachments, predictor)
 # to log your model to Vectice under the 'Model Used' section.
 iteration.log(my_model, section="Model Used")
 ```
-{% endtab %}
 
-{% tab title="Vectice Web App" %}
 To define a section to organize your assets inside the Vectice Web App...
 
 1. Go to your selected Project and Phase
@@ -93,8 +82,7 @@ To define a section to organize your assets inside the Vectice Web App...
 4. Once the section is created, drag and drop your assets to the correct section
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-{% endtabs %}
+
 
 ## Delete Sections
 
@@ -112,30 +100,26 @@ Drag and drop assets between sections to rearrange them as you like.
 
 ## Delete assets in a section
 
-{% tabs %}
+
 {% tab title="Vectice API" %}
 You can delete assets within a specified section of the iteration using the API:
 
 ```python
 iteration.delete_assets_in_section(section="Collect Initial Data")
 ```
-{% endtab %}
 
-{% tab title="Vectice Web App" %}
 You can delete assets within a specified section of the iteration in the Web App by
 
 1. Go to your phase iteration and identify the section
 2. Select one or more of the assets you want to delete
 3. Click the **Delete assets**&#x20;
-{% endtab %}
-{% endtabs %}
+
 
 ## Create Notes&#x20;
 
 Add notes directly to your iteration for more context.
 
-{% tabs %}
-{% tab title="Vectice API" %}
+
 To add a note via Vectice API, use the following `log()` method and insert your note.
 
 `iteration.log("This is my note.")`
@@ -157,8 +141,6 @@ Inside the Web App, to add a note to your iteration:
 2. Select **Create note**
 
 <figure><img src="../.gitbook/assets/create note.png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-{% endtabs %}
 
 ## Star your favorite iterations
 
@@ -167,4 +149,3 @@ Star the iterations you want to highlight to make them stand out, making it easi
 <figure><img src="../.gitbook/assets/star-iteration.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/star-2.png" alt=""><figcaption></figcaption></figure>
-

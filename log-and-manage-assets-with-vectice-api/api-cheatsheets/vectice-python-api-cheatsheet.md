@@ -22,8 +22,6 @@ pip install vectice==<version number>
 
 Get started by connecting to the Vectice API and starting an iteration.
 
-{% tabs %}
-{% tab title="Connect with API key" %}
 ```python
 #import and connect to Vectice
 import vectice
@@ -38,9 +36,6 @@ phase = connect.phase("PHA-XXX") #You can fetch the relevant phase ID from your 
 #Create an iteration
 iteration = phase.create_or_get_current_iteration()
 ```
-{% endtab %}
-
-{% tab title="Connect with JSON file" %}
 ```python
 #import and connect to Vectice
 import vectice
@@ -52,8 +47,6 @@ phase = connect.phase("PHA-XXX") #You can fetch the relevant phase ID from your 
 #Create an iteration
 iteration = phase.create_or_get_current_iteration()
 ```
-{% endtab %}
-{% endtabs %}
 
 ## Auto-document your assets
 
@@ -70,8 +63,6 @@ iteration.log("this is a comment")
 
 For instructions on using these resources, refer to the [Vectice API Reference ](https://api-docs.vectice.com/)guide's Resources section.
 
-{% tabs %}
-{% tab title="Local file" %}
 <pre class="language-python"><code class="lang-python">from vectice import FileResource, Dataset
 <strong>
 </strong><strong># Auto-document your first dataset from a local file
@@ -79,9 +70,7 @@ For instructions on using these resources, refer to the [Vectice API Reference ]
 clean_dataset = Dataset.clean(resource=file_resource, name="your_dataset_name")
 iteration.log(clean_dataset)
 </code></pre>
-{% endtab %}
 
-{% tab title="BigQuery" %}
 ```python
 from vectice import BigQueryResource, Dataset
 
@@ -90,9 +79,7 @@ bq_resource = BigQueryResource(paths="your-bq-table", dataframes=your_df)
 clean_dataset = Dataset.clean(resource=bq_resource, name="your_dataset_name")
 iteration.log(clean_dataset)
 ```
-{% endtab %}
 
-{% tab title="S3" %}
 ```python
 from vectice import S3Resource, Dataset
 
@@ -101,9 +88,7 @@ s3_resource = S3Resource(uris="s3://.../<file_path_inside_bucket>", dataframes=y
 clean_dataset = Dataset.clean(resource=s3_resource, name="your_dataset_name")
 iteration.log(clean_dataset)
 ```
-{% endtab %}
 
-{% tab title="GCS" %}
 ```python
 from vectice import GCSResource, Dataset
 
@@ -112,9 +97,7 @@ gcs_resource = GCSResource(uris="gs://.../<file_path_inside_bucket>", dataframes
 clean_dataset = Dataset.clean(gcs_resource, name, attachments)
 iteration.log(clean_dataset)
 ```
-{% endtab %}
 
-{% tab title="Databricks" %}
 ```python
 from vectice import DatabricksTableResource, Dataset
 
@@ -123,9 +106,7 @@ db_resource = DatabricksTableResource(paths="my-table", dataframes=your_df)
 clean_dataset = Dataset.clean(resource=gcs_resource, name="your_dataset_name")
 iteration.log(clean_dataset)
 ```
-{% endtab %}
 
-{% tab title="Snowflake" %}
 ```python
 from vectice import SnowflakeResource, Dataset
 
@@ -144,9 +125,7 @@ sf_resource = SnowflakeResource(
 clean_dataset = Dataset.clean(resource=sf_resource, name="your_dataset_name")
 iteration.log(clean_dataset)
 ```
-{% endtab %}
 
-{% tab title="SparkTable" %}
 ```python
 from vectice import SparkTableResource, Dataset
 
@@ -159,13 +138,11 @@ st_resource = SparkTableResource(
 clean_dataset = Dataset.clean(resource=st_resource, name="your_dataset_name")
 iteration.log(clean_dataset)
 ```
-{% endtab %}
-{% endtabs %}
+
 
 ### Auto-document MODELS
 
-{% tabs %}
-{% tab title="Default" %}
+
 ```python
 from vectice import Model
 
@@ -173,9 +150,7 @@ from vectice import Model
 model = Model(metrics, properties, attachments, predictor)
 iteration.log(model)
 ```
-{% endtab %}
 
-{% tab title="MLFlow" %}
 ```python
 import mlflow
 from mlflow.client import MlflowClient
@@ -188,8 +163,6 @@ model = Model.mlflow(
     )
 iteration.log(model)
 ```
-{% endtab %}
-{% endtabs %}
 
 ## Close your iteration
 

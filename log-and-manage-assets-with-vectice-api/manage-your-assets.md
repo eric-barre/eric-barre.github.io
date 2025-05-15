@@ -10,8 +10,6 @@ You can update your model status to`PRODUCTION`, `EXPERIMENTAL`, `RETIRED`, or `
 You will receive an error message if you use a status outside the options mentioned above.
 
 
-{% tabs %}
-{% tab title="Vectice API" %}
 To update a model status using the Vectice API...
 
 ```python
@@ -29,9 +27,7 @@ mdv = connect.browse('MDV-XXX')
 # Update your model status
 mdv.update(status="PRODUCTION")
 ```
-{% endtab %}
 
-{% tab title="Vectice Web App " %}
 To update a model status in the Vectice Web App...
 
 1. Go to your project and select **Models**&#x20;
@@ -40,5 +36,3 @@ To update a model status in the Vectice Web App...
 4. Update the **Model version status**
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-06-11 at 10.05.53 AM.png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-{% endtabs %}

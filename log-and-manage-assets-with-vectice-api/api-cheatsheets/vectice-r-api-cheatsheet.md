@@ -53,27 +53,22 @@ iteration$log("this is a comment")
 
 ### Auto-document DATASETS
 
-{% tabs %}
-{% tab title="Local file" %}
 ```r
 # Auto-document your first dataset from a local file
 ds_resource <- vectice$FileResource(paths, dataframes)
 raw_ds <- vectice$Dataset$origin(name=name, resource=ds_resource, attachments = attachments)
 iteration$log(raw_ds)
 ```
-{% endtab %}
-{% endtabs %}
+
 
 ### Auto-document MODELS
 
-{% tabs %}
-{% tab title="Default" %}
+
 <pre class="language-r"><code class="lang-r"><strong># Auto-document your first model
 </strong>model &#x3C;- vectice$Model(library, technique, metrics, properties, name, attachments, predictor)
 iteration$log(model)
 </code></pre>
-{% endtab %}
-{% endtabs %}
+
 
 ## Close your iteration
 

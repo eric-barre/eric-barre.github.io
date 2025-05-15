@@ -11,8 +11,6 @@ For `Python` , you will need the following:&#x20;
 
 For `R` , you will need to install and use the `reticulate` library.
 
-{% tabs %}
-{% tab title="Python" %}
 ```python
 # Install the latest vectice package
 pip install vectice
@@ -23,9 +21,7 @@ pip install vectice==24.1
 # You can chain multiple installations
 pip install vectice["s3, gcs"]
 ```
-{% endtab %}
 
-{% tab title="R" %}
 ```r
 # Step 1: Install reticulate if not already installed
 install.packages("reticulate")
@@ -36,8 +32,7 @@ reticulate::py_install("vectice", pip = TRUE)
 # Or install a specific version of Vectice
 reticulate::py_install("vectice==<desired_version_number>", pip = TRUE)
 ```
-{% endtab %}
-{% endtabs %}
+
 
 ## Create an API key
 
