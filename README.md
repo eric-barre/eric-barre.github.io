@@ -8,7 +8,7 @@ Vectice is the go-to Auto-Documentation software for machine learning projects a
 
 Watch our Product Overview video to learn more!
 
-{% embed url="https://youtu.be/STf39dKewVg?ref=0" %}
+{% url="https://youtu.be/STf39dKewVg?ref=0" %}
 
 We enable organizations to:
 
