@@ -2,7 +2,7 @@
 
 To simplify project governance, Vectice created **custom documentation templates** to enable you to define templates to automatically produce model development documents (MDD), model cards, and governance reports from your data science asset metadata.  Watch the video to see templates in action:
 
-{% embed url="https://youtu.be/_mpSmZlg8uM" %}
+<video src="https://youtu.be/_mpSmZlg8uM" width="320" height="240" controls></video>
 
 Using Vectice custom documentation templates significantly improves the Model Risk Management (MRM) workflow. These templates ensure that every model report follows a consistent format, making it easier for risk managers to review and validate models. Here are some of the key benefits:
 

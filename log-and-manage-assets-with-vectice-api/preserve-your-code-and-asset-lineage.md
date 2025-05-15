@@ -2,7 +2,8 @@
 
 Vectice captures, tracks, and visualizes the relationships between your data science assets—code, datasets, models, and artifacts—from origin to deployment. This ensures full transparency and traceability for better validation and collaboration.
 
-{% embed url="https://youtu.be/6lG-pEWOVZ0?ref=0" %}
+
+<video src="https://youtu.be/6lG-pEWOVZ0?ref=0" width="320" height="240" controls></video>
 
 With automatic code capture from your Notebook via the Vectice API, you can preserve both version-controlled and local files. This simplifies model management and saves time by ensuring your code is documented from the start.
 

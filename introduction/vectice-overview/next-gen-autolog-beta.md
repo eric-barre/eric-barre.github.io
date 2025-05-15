@@ -53,4 +53,4 @@ Use[ Autolog](autolog.md) to capture all metadata from your notebook. Once the m
 
 The results are immediately visible in the iteration page and can be integrated into the documentation using Macros, Widgets or pre-defined Prompts.
 
-{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FbO7GsO4mI4pjZ7XjnzBT%2Fuploads%2FVKLkeBYXfGshc4Fs1EUN%2FDesign%20sans%20titre.mp4?alt=media&token=31bf7f4b-1acc-413c-8959-4d0b8093eaa4" %}
+<video src="https://youtu.be/Tw3DYJv6qQU" width="320" height="240" controls></video>

@@ -2,7 +2,7 @@
 
 Vectice offers a streamlined process for documenting your model work, requesting reviews, and securely storing the documentation from Vectice Reports.&#x20;
 
-{% embed url="https://youtu.be/cQHhwlEcEhU?ref=0" %}
+<video src="https://youtu.be/cQHhwlEcEhU?ref=0" width="320" height="240" controls></video>
 
 ## How to Create a Report
 

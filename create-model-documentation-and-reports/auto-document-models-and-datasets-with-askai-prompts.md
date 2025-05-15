@@ -2,7 +2,7 @@
 
 **AskAI** empowers data scientists to generate clear, tailored documentation for iterations, models, or datasets with ease. Whether using the “Ask Me Anything” feature for custom prompts or documenting directly from your assets using Macros, AskAI ensures all key details are documented seamlessly—so you can focus on your work, not the paperwork.
 
-{% embed url="https://youtu.be/4BzJPtITQD8?ref=0" %}
+<video src="https://youtu.be/4BzJPtITQD8?ref=0" width="320" height="240" controls></video>
 
 ## AskAI Prompts
 
@@ -46,7 +46,7 @@ Prompt to derive the feature engineering that happened between 2 datasets. The L
 
 
 ```
-Explain what feature engineering and transformations that happened between those 2 datasets {{ DTV-358 }} and {{ DTV-370 }}. 
+Explain what feature engineering and transformations that happened between those 2 datasets {{ DTV-358 }} and {{ DTV-370 }}.
 ```
 
 
@@ -60,7 +60,7 @@ Alternatively, you can provide more information to your Prompt to derive more ba
 
 
 ```
-Explain what feature engineering and transformations that happened between those 2 datasets {{ DTV-358 }} and {{ DTV-370 }}. Based on this iteration {{ ITR-223 }}, go deeper in the feature engineering process and provide extensive detail about what happened. 
+Explain what feature engineering and transformations that happened between those 2 datasets {{ DTV-358 }} and {{ DTV-370 }}. Based on this iteration {{ ITR-223 }}, go deeper in the feature engineering process and provide extensive detail about what happened.
 ```
 
 

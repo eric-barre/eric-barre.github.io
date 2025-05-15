@@ -26,8 +26,7 @@ We recommend to start from a provided template for standard model documentation.
 
 You can also duplicate and re-use your own templates to customize them for each team model use case
 
-
-{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FbO7GsO4mI4pjZ7XjnzBT%2Fuploads%2FEQFoIABwfHfdc3YY45dk%2Freport%20templates%200325.mp4?alt=media&token=5458023a-c4ca-4d58-8f63-b1b848324a5d" %}
+<video src="https://youtu.be/W1o0T9clQJU" width="320" height="240" controls></video>
 
 #### 2. Upload your own template
 
@@ -55,9 +54,9 @@ Start with a blank document and use the Vectice editor to structure and automate
 * Utilize Macros and Ask AI prompts to automate data-driven sections.
 * Change the access level to Organization-shared if you want to make it available to all your colleagues, or keep it as Personal if you want to keep it for your personal use&#x20;
 
-{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FbO7GsO4mI4pjZ7XjnzBT%2Fuploads%2FDlW9z4VcMgL5Jm1UkFNk%2FCreate%20a%20Vectice%20template%20from%20your%20own%20Word%20template%20(2).mp4?alt=media&token=997a8324-f53e-4e8d-ba71-8e7c74538af0" %}
+
+<video src="https://youtu.be/ZGkrbmUj7zQ" width="320" height="240" controls></video>
 Copy-paste from your own Word template
-{% endembed %}
 
 ### Need Help?
 

@@ -6,7 +6,7 @@ By integrating directly with Vectice’s metadata, AskAI provides tailored insig
 
 Learn how **AskAI** can save time and ensure consistent, high-quality documentation in this video:
 
-{% embed url="https://youtu.be/4BzJPtITQD8?ref=0" %}
+<video src="https://youtu.be/4BzJPtITQD8?ref=0" width="320" height="240" controls></video>
 
 ## Macros with AskAI
 
@@ -32,4 +32,3 @@ With AskAI, documentation becomes faster, smarter, and more collaborative, enabl
 
 
 For more detailed information, view our [Auto-document models with AskAI ](../../create-model-documentation-and-reports/auto-document-models-and-datasets-with-askai-prompts.md)guide.
-
