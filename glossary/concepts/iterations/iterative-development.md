@@ -81,7 +81,6 @@ Vectice allows you to track versions of datasets, models, and code used in devel
 
 You can find these asset versions and details in the Vectice app under the Datasets and Models sections of the Project.
 
-{% hint style="success" %}
 All assets are automatically versioned, making it simple to track a project's progress and compare results across different iterations.
 
 
@@ -93,7 +92,7 @@ Once you finish an iteration, use this code to mark it as complete in Vectice in
 iteration.complete()
 ```
 
-{% hint style="success" %}
+
 This signals that a phase or task is finished, helping track progress and letting others know it's ready for review or the next steps.
 
 

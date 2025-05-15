@@ -2,7 +2,6 @@
 
 A Vectice `Table` wraps a pandas dataframe into a table format, which you can then log to a Vectice iteration. This enables you to log custom metadata to Vectice in a tabular format.&#x20;
 
-{% hint style="warning" %}
 You should not use `Table` to store important or sensitive information. `Table` is for storing low sensitive information that may support your documentation efforts.
 
 

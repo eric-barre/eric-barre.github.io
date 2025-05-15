@@ -2,7 +2,7 @@
 
 ## Data stored by Vectice
 
-{% hint style="success" %}
+
 Vectice stores metadata and documentation of AI projects. Vectice does not store or access any data from datasets or any customer data.
 
 

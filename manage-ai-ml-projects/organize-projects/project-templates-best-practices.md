@@ -14,7 +14,7 @@ Since every organization is different, we suggest tailoring your template to mee
 
 You can modify your project template by changing phases, requirements, and documentation as necessary.
 
-{% hint style="success" %}
+
 Once you have a customized project template that works for your organization, we recommend that you duplicate it for future projects.
 
 
