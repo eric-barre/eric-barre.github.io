@@ -22,9 +22,7 @@ This guide is for [**Admins**](../../admin-guides/user-management/user-roles-and
 
 For Single Sign-On (SSO), Vectice offers maximum flexibility. We integrate seamlessly with any SAML-based identity provider, not just the usual suspects. Our expert team is happy to help you customize the configuration to perfectly match your specific requirements, ensuring a secure and efficient login process for your users.
 
-{% content-ref url="generic-saml-integration.md" %}
 [generic-saml-integration.md](generic-saml-integration.md)
-{% endcontent-ref %}
 
 ### Okta integration
 
@@ -36,6 +34,4 @@ This setup enables IT administrators to manage user access, remove users, modify
 
 Please refer to our dedicated user guide for SSO configuration:
 
-{% content-ref url="okta-sso-integration.md" %}
 [okta-sso-integration.md](okta-sso-integration.md)
-{% endcontent-ref %}
