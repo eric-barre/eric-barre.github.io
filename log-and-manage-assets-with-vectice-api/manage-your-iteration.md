@@ -16,7 +16,7 @@ Once an iteration is complete, you cannot reorganize the assets in the App. To r
 ```python
 iteration.complete()
 ```
-{% endcode %}
+
 
 Full example:
 

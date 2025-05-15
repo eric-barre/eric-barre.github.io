@@ -26,31 +26,31 @@ Each dataset's metadata is logged at the iteration level. Use the static methods
 
 To log the columnar data of your origin dataset, [use any resource](../../glossary/concepts/datasets/dataset-resources.md) to log it to your current iteration. For this example, we will use `FileResource()` to log a local origin dataset:
 
-{% code overflow="wrap" %}
+
 ```python
 from vectice import FileResource
 
 # Log your origin dataset's supporting artifacts to your current iteration
 origin_dataset = Dataset.origin(name="Iris Origin", resource=FileResource(paths="raw_iris.csv"))
 
-iteration.log(origin_dataset) 
+iteration.log(origin_dataset)
 ```
-{% endcode %}
+
 
 ### Log cleaned dataset
 
 To log the columnar data of your cleaned dataset, use any resource to log it to your current iteration. For this example, we will use `FileResource()` to log a local clean dataset:
 
-{% code overflow="wrap" %}
+
 ```python
 from vectice import FileResource
 
 # Log your clean dataset's supporting artifacts to your current iteration
 clean_dataset = Dataset.clean(name="Iris Cleaned", resource=FileResource(paths="iris_cleaned.csv"))
-                                
+
 iteration.log(clean_dataset)
 ```
-{% endcode %}
+
 
 ### Log modeling dataset
 
@@ -73,7 +73,7 @@ modeling_dataset = Dataset.modeling(
     training_resource=training_resource,
     testing_resource=testing_resource,
     validation_resource=validation_resource)
-    
+
 iteration.log(modeling_dataset)
 ```
 
@@ -84,7 +84,7 @@ This example will demonstrate the full workflow of how to log your modeling data
 ```python
 from vectice import FileResource
 
-# Connect to Vectice 
+# Connect to Vectice
 connect = vectice.connect(
     api_token = 'your-api-key',        # Paste your api key
     host = 'https://app.vectice.com',  # Paste your host

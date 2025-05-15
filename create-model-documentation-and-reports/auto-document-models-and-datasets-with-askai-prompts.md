@@ -16,11 +16,11 @@ To generate documentation based on your assets and phases, use AskAI's "Ask me a
 
 The following AI prompt will summarize your model's technique, performance metrics and insert attachments.
 
-{% code overflow="wrap" %}
+
 ```
 Generate a summary of the model {{ MDV-163 }}. Explain the metrics and insert attachments related to performance.
 ```
-{% endcode %}
+
 
 **Prompt output:**
 
@@ -30,11 +30,11 @@ Generate a summary of the model {{ MDV-163 }}. Explain the metrics and insert at
 
 The following AI prompt will generate a detailed comparison of multiple models, highlighting differences in technique, training data, and results.
 
-{% code overflow="wrap" %}
+
 ```
 Compare the following models {{ MDV-162 }} and {{ MDV-163 }}. Focus on differences in their techniques, training data, and performance outcomes.
 ```
-{% endcode %}
+
 
 **Prompt output:**
 
@@ -44,11 +44,11 @@ Compare the following models {{ MDV-162 }} and {{ MDV-163 }}. Focus on differenc
 
 Prompt to derive the feature engineering that happened between 2 datasets. The LLM will look at the distribution of the columns and all of the metadata and infer the feature engineering.
 
-{% code overflow="wrap" %}
+
 ```
 Explain what feature engineering and transformations that happened between those 2 datasets {{ DTV-358 }} and {{ DTV-370 }}. 
 ```
-{% endcode %}
+
 
 **Prompt output:**
 
@@ -58,11 +58,11 @@ Explain what feature engineering and transformations that happened between those
 
 Alternatively, you can provide more information to your Prompt to derive more based on iteration.
 
-{% code overflow="wrap" %}
+
 ```
 Explain what feature engineering and transformations that happened between those 2 datasets {{ DTV-358 }} and {{ DTV-370 }}. Based on this iteration {{ ITR-223 }}, go deeper in the feature engineering process and provide extensive detail about what happened. 
 ```
-{% endcode %}
+
 
 **Prompt output:**
 
