@@ -27,9 +27,9 @@ Below is a list of artifacts you can find in the Vectice app after data scientis
 * Project phases that aim to **train**, **test**, or **validate** **models** should have iteration sections to log the models accordingly. This is typically completed in the **Modeling** phase of a CRISP-DM project.
 * Mark your **most valuable iterations and assets** in the Vectice app by selecting the **star** next to the corresponding iteration and assets **before** beginning the phase review. This will make it easier for stakeholders and subject matter experts to identify the iterations and assets in review.
 
-{% hint style="info" %}
+
 Select the **star** next to the **valuable iterations** before completing a phase, even without review. This allows you to identify the **most valuable** **iterations** for that phase.
-{% endhint %}
+
 
 ## How to log models to Vectice?
 

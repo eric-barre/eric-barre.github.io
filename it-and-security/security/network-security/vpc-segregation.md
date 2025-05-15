@@ -2,9 +2,9 @@
 
 ## A dedicated Virtual Private Cloud (VPC)
 
-{% hint style="info" %}
+
 For self-hosted Vectice deployments, we recommend using a dedicated Virtual Private Cloud (VPC). Our SaaS offering comes pre-configured with this setup.
-{% endhint %}
+
 
 To further safeguard your data and applications, we leverage a dedicated Virtual Private Cloud (VPC) deployment model for our infrastructure. Here's what this means for you:
 

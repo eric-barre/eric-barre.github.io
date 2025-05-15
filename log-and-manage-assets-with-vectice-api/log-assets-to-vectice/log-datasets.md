@@ -4,9 +4,9 @@ description: Learn how to log your datasets to Vectice.
 
 # Log datasets
 
-{% hint style="info" %}
+
 Make sure to complete the [prerequisites](../connect-to-api.md#prerequisites-to-register-assets) before getting started with logging datasets to Vectice. To learn more, view our [Getting Started with Vectice API guide](../connect-to-api.md).
-{% endhint %}
+
 
 The Vectice API enables you to log all datasets used during development to the Vectice app. This includes **origin datasets**, **cleaned datasets**, and **modeling datasets.**
 
@@ -56,9 +56,9 @@ iteration.log(clean_dataset)
 
 To log the columnar data of your modeling datasets used for **training**, **testing**, and **validation**, use any resource to log it to your current iteration. We will use `FileResource()` to log this example dataset:
 
-{% hint style="info" %}
+
 Training and testing resources are **required** to log a modeling dataset. Validation resources are **optional**.
-{% endhint %}
+
 
 ```python
 from vectice import FileResource

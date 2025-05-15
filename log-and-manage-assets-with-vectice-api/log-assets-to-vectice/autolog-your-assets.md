@@ -2,9 +2,9 @@
 
 You can auto-document all your assets used in your IDE or notebook environment with a single line of code. Start by importing and configuring the `autolog` vectice package:
 
-{% hint style="info" %}
+
 Autolog must be configured at the beginning of your notebook to capture all relevant information.
-{% endhint %}
+
 
 ```python
 from vectice import autolog

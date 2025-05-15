@@ -74,9 +74,9 @@ Once you select the create button, the cluster creation will take about 30 minut
 
 ## Appendix 4: Disaster recovery plan
 
-{% hint style="info" %}
+
 Learn more about our [data storage](../../../security/data-storage-security.md) and [backup policies](appendices.md#backup-strategy).
-{% endhint %}
+
 
 ### Backup strategy
 

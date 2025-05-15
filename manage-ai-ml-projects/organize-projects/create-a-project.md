@@ -17,6 +17,6 @@ Choose a workspace for your project and select one of four options:
 
 Pick the option that best suits your project needs.&#x20;
 
-{% hint style="info" %}
+
 Once you create a project, you will automatically become the **Project owner**. You can reassign the project ownership to any Workspace member within the project settings.
-{% endhint %}
+

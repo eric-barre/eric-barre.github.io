@@ -4,9 +4,9 @@ While this page highlights our use of Keycloak, a Secret Manager, and secret rot
 
 ## Secrets management
 
-{% hint style="info" %}
+
 For self-hosted Vectice deployments, we recommend using a secret manager such as [GCP's secret manager](https://cloud.google.com/security/products/secret-manager) or [Hashicorp's Vault](https://www.vaultproject.io/) to securely store sensitive information. Our SaaS offering comes pre-configured with this setup.
-{% endhint %}
+
 
 ### Secrets storage
 

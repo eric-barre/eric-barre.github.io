@@ -2,9 +2,9 @@
 
 Documenting phase outcomes is about summarizing what you've achieved and what improvements may come after completing each phase. It's crucial for understanding each project phase and presenting this info to stakeholders and decision-makers.
 
-{% hint style="info" %}
+
 How you explain and present results can impact your company's decisions, so be clear and thorough to validate your conclusions.
-{% endhint %}
+
 
 Here are some suggestions to consider while summarizing the phase outcome:
 

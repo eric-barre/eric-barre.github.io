@@ -6,9 +6,9 @@ Efficiently manage your AI project assets to ensure your data is organized, acce
 
 You can update your model status to`PRODUCTION`, `EXPERIMENTAL`, `RETIRED`, or `STAGING`.&#x20;
 
-{% hint style="info" %}
+
 You will receive an error message if you use a status outside the options mentioned above.
-{% endhint %}
+
 
 {% tabs %}
 {% tab title="Vectice API" %}

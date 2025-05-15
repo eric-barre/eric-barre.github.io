@@ -219,9 +219,9 @@ kubectl --context $CONTEXT -n vectice delete -f postgresql-client.yml
 
 ## Appendix 5: Disaster recovery plan
 
-{% hint style="info" %}
+
 Learn more about our [data storage](../../../security/data-storage-security.md) and [backup policies](appendices.md#backup-strategy).
-{% endhint %}
+
 
 ### Backup strategy
 

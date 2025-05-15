@@ -4,9 +4,9 @@
 
 Workspaces help **organize projects and members in an organization**, simplifying collaboration and permission management.
 
-{% hint style="info" %}
+
 Your organization can have multiple workspaces, each with its own projects, phases, and assets.
-{% endhint %}
+
 
 ## Workspace Features
 

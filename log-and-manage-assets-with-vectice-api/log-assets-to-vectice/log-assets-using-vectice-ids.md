@@ -2,9 +2,9 @@
 
 Each asset within Vectice has a unique ID. These identifiers are permanent and unique inside the Vectice organization. That way, you can identify resources from the Vectice API and simplify collaboration amongst teammates by providing the IDs of assets.&#x20;
 
-{% hint style="info" %}
+
 Each asset has a three-letter prefix followed by an incrementing number. For example, **WSP-213**.
-{% endhint %}
+
 
 ## Vectice IDs prefix
 

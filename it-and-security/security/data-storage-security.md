@@ -4,13 +4,13 @@
 
 {% hint style="success" %}
 Vectice stores metadata and documentation of AI projects. Vectice does not store or access any data from datasets or any customer data.
-{% endhint %}
+
 
 <table><thead><tr><th>Model Versions</th><th width="190">Iterations</th><th>Dataset Versions</th><th>Documentation</th></tr></thead><tbody><tr><td><ul><li>Hyperparameters of models</li><li>Metrics of models</li><li>Performance graphs</li></ul></td><td><ul><li>Metadata about jobs execution</li><li>Comments</li><li>Images to illustrate the iteration</li></ul></td><td><ul><li>Metadata about datasets e.g. table names, number of files, column names, size, etc</li></ul></td><td><ul><li>Documentation of AI projects and documentation history based on user inputs: text, images</li></ul></td></tr></tbody></table>
 
-{% hint style="info" %}
+
 **Note:** We never store or access your actual data—only metadata about your datasets is handled, and we never directly interact with your data or PII.
-{% endhint %}
+
 
 The metadata is retrieved exclusively from the dataframe objects in your notebooks or from the database tables you loaded during your modeling exercises. Vectice does not have or maintain any credentials to access the source of data directly. Using functions like dataframe.describe, we extract summary-level metadata (e.g., column names, data types, and statistical summaries) and send it back to Vectice. This process ensures that no actual data or PII is accessed, stored, or transmitted as part of the Vectice auto-logging process.
 
@@ -29,9 +29,9 @@ Metadata retrieval is performed solely at the user's explicit request, maintaini
 
 ## Encrypted database
 
-{% hint style="info" %}
+
 For self-hosted Vectice deployments, we recommend using a secure Databases solution.  Our SaaS offering comes pre-configured with this setup.
-{% endhint %}
+
 
 **Encryption at rest**
 
@@ -44,9 +44,9 @@ The SQL instance only allows connections from clients that use a valid client ce
 
 ## Encrypted data storage
 
-{% hint style="info" %}
+
 For self-hosted Vectice deployments, we recommend using a secure Storage solution.  Our SaaS offering comes pre-configured with this setup.
-{% endhint %}
+
 
 **Server-side encryption**&#x20;
 

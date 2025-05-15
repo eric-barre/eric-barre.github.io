@@ -2,9 +2,9 @@
 
 Explore our features through easy-to-follow videos to see how Vectice can add value to your Data Science and Machine Learning work and make your documentation process seamless and efficient.
 
-{% hint style="info" %}
+
 Right-click the videos below to open and watch them in a new tab.
-{% endhint %}
+
 
 ## Auto-document Videos
 

@@ -4,9 +4,9 @@
 
 Projects enable data science leaders **to oversee team workflows and track data science projects**.
 
-{% hint style="info" %}
+
 Within each workspace, you can create multiple projects, each with its own phases and assets.
-{% endhint %}
+
 
 ## Project Features
 

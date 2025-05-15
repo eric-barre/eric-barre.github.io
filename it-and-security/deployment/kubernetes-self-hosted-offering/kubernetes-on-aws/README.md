@@ -108,9 +108,9 @@ kubectl --context $CONTEXT create namespace vectice
 
 ### Step 2: Install the AWS Application Load Balancer (ALB)
 
-{% hint style="info" %}
+
 For further reference please see the [AWS Guide to Installing the Load Balancer Controller](https://docs.aws.amazon.com/eks/latest/userguide/aws-load-balancer-controller.html)
-{% endhint %}
+
 
 First, download the ALB policy:
 
@@ -236,9 +236,9 @@ Run commands to create the databases “vectice” and “keycloak.” Once it�
 
 Next, install the cert-manager and cert-manager-csi-driver applications on the cluster.
 
-{% hint style="info" %}
+
 Cert-manager is used to implement SSL for internal communication between Vectice pods, Cert-manager-csi-driver will attach a csi volume containing the certificates to the Vectice pods
-{% endhint %}
+
 
 ```bash
 helm --kube-context $CONTEXT repo add jetstack https://charts.jetstack.io
@@ -298,9 +298,9 @@ kubectl --context $CONTEXT create secret docker-registry vectice-gar-secrets -n 
 \
 From the package your account team provided, untar helm vectice chart and create `myvalues.yml` from `values.yml file`. Below, sample values are provided between brackets:
 
-{% hint style="info" %}
+
 Please refer to the [configuration page](../configuration.md) and comments inside the file `myvalues.yaml` to customize values.
-{% endhint %}
+
 
 ```bash
 VERSION=<241.1.0>
@@ -332,9 +332,9 @@ vectice  alb   vectice.my-company.com   lb.us-west-1.elb.amazonaws.com   80, 443
 
 Finally, add the CNAME as a new entry in your DNS resolver.
 
-{% hint style="info" %}
+
 Learn more about [CNAME DNS records](https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/).
-{% endhint %}
+
 
 In this example, the CNAME record would look like below.
 

@@ -4,9 +4,9 @@
 
 At Vectice, we understand the importance of safeguarding your data when you use our software. That's why we prioritize secure communication through HTTPS encryption.
 
-{% hint style="info" %}
+
 For self-hosted Vectice deployments, we recommend using a DNS provider such as [Cloudflare](https://www.cloudflare.com/) with secured certificates.  Our SaaS offering comes pre-configured with this setup.
-{% endhint %}
+
 
 * **Cloudflare certificates:** We utilize high-quality SSL/TLS certificates from Cloudflare for our vectice.com domain. These certificates encrypt all communication between your web browser and our servers. This encryption scrambles the data, making it unreadable to anyone who might try to intercept it as it travels across the internet.
 * **Cloudflare protection:** In addition to the certificates, we benefit from Cloudflare's industry-leading security expertise. CloudFlare acts as an extra shield in front of our infrastructure, filtering out malicious traffic and further safeguarding your connection.
@@ -15,9 +15,9 @@ This combined approach with Cloudflare certificates and protection offers robust
 
 ## Securing internal communications
 
-{% hint style="info" %}
+
 Understand more about [cert-manager mechanisms](https://cert-manager.io/).
-{% endhint %}
+
 
 We take secure communication within our system very seriously. Here's how we achieve this:
 

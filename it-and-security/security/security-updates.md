@@ -15,9 +15,9 @@ We take security seriously at Vectice. This page outlines our approach to keepin
 
 Vectice follows CVSS 3.1 vulnerability assessment and commits to vulnerability resolution with the SLA below:
 
-{% hint style="info" %}
+
 CVSS 3.1, or the **Common Vulnerability Scoring System version 3.1**, is a standardized framework used to rate the severity of security vulnerabilities in software. It provides a numerical score reflecting a vulnerability's potential impact and exploitability, helping organizations prioritize their remediation efforts effectively.
-{% endhint %}
+
 
 | **Vulnerability** | **Resolution target time** | **Mechanism**            |
 | ----------------- | -------------------------- | ------------------------ |

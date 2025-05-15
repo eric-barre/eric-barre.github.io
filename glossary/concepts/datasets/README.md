@@ -2,11 +2,11 @@
 
 Datasets reflect the dataset metadata logged to Vectice during model development.
 
-{% hint style="info" %}
+
 **Please note that Vectice does not store your actual datasets.**&#x20;
 
 Vectice documents dataset metadata like origin, version, and artifacts from various sources, while automatically managing dataset versions for lineage tracking.
-{% endhint %}
+
 
 The Vectice API enables you to log all dataset artifacts used during development to the Vectice app, including your **origin**, **cleaned**, and **modeling datasets.**
 
@@ -33,9 +33,9 @@ The Vectice API enables you to log all dataset artifacts used during development
 * [Dataset properties](dataset-properties.md)
 * [Dataset lineage and versions](dataset-lineage-and-versions.md)
 
-{% hint style="info" %}
+
 Select the **star** next to the **valuable iterations** before completing a phase, even without review. This allows you to identify the **most valuable** **iterations** for that phase.
-{% endhint %}
+
 
 ## How to log datasets to Vectice?
 

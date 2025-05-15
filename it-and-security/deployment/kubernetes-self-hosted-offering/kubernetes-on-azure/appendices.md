@@ -162,9 +162,9 @@ Proceed to the peering of the 2 VNets:
 
 ## Appendix 5: Disaster recovery plan
 
-{% hint style="info" %}
+
 Learn more about our [data storage](../../../security/data-storage-security.md) and [backup policies](appendices.md#backup-strategy).
-{% endhint %}
+
 
 ### Backup strategy
 

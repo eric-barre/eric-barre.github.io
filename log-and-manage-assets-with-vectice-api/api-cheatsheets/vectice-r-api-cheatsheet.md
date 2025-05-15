@@ -2,9 +2,9 @@
 
 This API guide provides a quick overview of Vectice's simple R API calls to help you get started auto-documenting your datasets, models, and notes.&#x20;
 
-{% hint style="info" %}
+
 Be sure to [create your API key](../connect-to-api.md) first!
-{% endhint %}
+
 
 ## Install Vectice
 

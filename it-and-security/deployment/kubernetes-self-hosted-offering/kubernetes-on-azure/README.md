@@ -108,9 +108,9 @@ kubectl --context $CONTEXT create namespace vectice
 
 Next, install the cert-manager and cert-manager-csi-driver applications on the cluster.
 
-{% hint style="info" %}
+
 Cert-manager is used to implement SSL for internal communication between Vectice pods, Cert-manager-csi-driver will attach a csi volume containing the certificates to the Vectice pods
-{% endhint %}
+
 
 ```bash
 helm --kube-context $CONTEXT repo add jetstack https://charts.jetstack.io
@@ -128,9 +128,9 @@ kubectl --context $CONTEXT create secret tls vectice-internal-ca -n vectice --ce
 
 ### Step 3: Set up the Application Gateway on the cluster
 
-{% hint style="info" %}
+
 #### You can reuse an existing application gateway through the Azure portal.
-{% endhint %}
+
 
 To enable the AGIC add-on, go to the  [Kubernetes services ](https://portal.azure.com/?feature.aksagic=true#view/HubsExtension/BrowseResource/resourceType/Microsoft.ContainerService%2FmanagedClusters)page and select your Cluster. Go to the Settings > Networking and Virtual Network Integration tab to find the application gateway ingress controller section. Click on the ManageCheck box next to Enable ingress controller, and Create a new Application Gateway or Select your existing one.
 
@@ -190,9 +190,9 @@ kubectl --context $CONTEXT create secret docker-registry vectice-gar-secrets -n 
 
 From the package your account team provided, untar helm vectice chart and create `myvalues.yml` from `values.yml` file. Below, sample values are provided between brackets.
 
-{% hint style="info" %}
+
 Please refer to the [configuration page](../configuration.md) and comments inside the file `myvalues.yaml` to customize values.
-{% endhint %}
+
 
 ```bash
 VERSION=<241.1.0>
@@ -223,9 +223,9 @@ vectice   azure-application-gateway  vectice.my-company.com   2.3.4.5   80, 443 
 
 Finally, add the A record as a new entry in your DNS resolver.
 
-{% hint style="info" %}
+
 Learn more about [A DNS records](https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/).
-{% endhint %}
+
 
 In this example, the A record would look like below:
 

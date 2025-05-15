@@ -2,9 +2,9 @@
 
 Proactive infrastructure monitoring is an essential practice for ensuring the reliability and performance of critical IT services. This section provides an overview of deploying a monitoring solution based on the [kube-prometheus-stack ](https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack)on your Kubernetes cluster. Kube-prometheus-stack is a popular open-source solution that simplifies deploying and managing a comprehensive monitoring stack for Kubernetes environments. It leverages Prometheus for time-series data collection and storage, and Grafana for data visualization and alerting.
 
-{% hint style="info" %}
+
 Deployment monitoring is a distinct process from Vectice software deployment.
-{% endhint %}
+
 
 **Benefits:**
 

@@ -2,9 +2,9 @@
 
 Explore Vectice's core concepts to become more familiar with how to use Vectice. Click on each concept inside the table for more detailed information.
 
-{% hint style="info" %}
+
 Click on the concepts to learn more.
-{% endhint %}
+
 
 | Concept                                                                                                                   | Description                                                                                                                                                         |
 | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

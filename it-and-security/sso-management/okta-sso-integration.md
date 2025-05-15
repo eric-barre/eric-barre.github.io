@@ -18,9 +18,9 @@ This guide outlines the steps to integrate Okta with Vectice using SAML, focusin
     <figure><img src="../../.gitbook/assets/Screenshot 2024-01-01 at 11.16.53 AM.png" alt=""><figcaption></figcaption></figure>
 7. Set the app name, ‘Vectice’ for example -> check ‘Do not display application icon to users’ -> click Next.&#x20;
 
-{% hint style="info" %}
+
 Currently, logins initiated from Okta are not supported.
-{% endhint %}
+
 
 8. Copy the **Single sign-on URL** and **Audience URI (SP Entity ID)** from Vectice's **Redirect URI** and **Entity ID**, and paste them into the SAML settings in Okta.
 9. For **Application username**, choose ‘Email’.  Click **Next** and Finish the creation of the Okta SAML Integration.&#x20;

@@ -2,9 +2,9 @@
 
 Vectice logs your `git` commit information, including the repository name, branch name, commit hash, and the commit URL when there is a `.git` folder or repository available. **Only** locally changed files not logged in Vectice are logged with each **new** git commit.
 
-{% hint style="info" %}
+
 Vectice is **not** a substitute for a code versioning system and is best used in coordination with a git-based system.
-{% endhint %}
+
 
 ## Prerequisites&#x20;
 
@@ -19,9 +19,9 @@ To log code in Vectice, you will need the following prerequisites:
 
 ### Git configuration
 
-{% hint style="info" %}
+
 Vectice supports all `git` integrations, including **GitHub**, **GitLab**, and **Bitbucket**.
-{% endhint %}
+
 
 You can obtain the prerequisites by first configuring your environment with your `Git` user name and email via the `Git CLI`.
 
@@ -48,9 +48,9 @@ git add "README.md" # or some other file
 git commit -m "Initial commit"
 ```
 
-{% hint style="info" %}
+
 Commits may not include the latest code changes in the Vectice app. Ensure to commit all new code changes.&#x20;
-{% endhint %}
+
 
 ## Code capture overview
 
@@ -60,9 +60,9 @@ Commits may not include the latest code changes in the Vectice app. Ensure to co
 * You [log a model ](log-models.md)within an iteration
 * You [log a dataset](log-datasets.md) (origin, cleaned, or modeling datasets) within an iteration
 
-{% hint style="info" %}
+
 More than one capture can happen within a single iteration.
-{% endhint %}
+
 
 With automatic code capture **enabled**, you will see the following **log output** indicating successful code capture:
 

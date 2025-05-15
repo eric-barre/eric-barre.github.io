@@ -43,9 +43,9 @@ iteration = phase.create_or_get_current_iteration()
 
 _Current iteration_ is your last updated iteration. However, if the current iteration is not writable or no iterations exist, we will create an iteration or list writable iterations. If you have multiple "In progress" iterations from the past, to not make assumptions, we will display a list of writable iterations that you can select using the  `{phase}.iteration("iteration name or ID")` method.
 
-{% hint style="info" %}
+
 You can create several editable iterations in different phases, but each user can have only one active iteration session at a time.
-{% endhint %}
+
 
 ## Step 4: Log your assets
 
@@ -83,7 +83,7 @@ You can find these asset versions and details in the Vectice app under the Datas
 
 {% hint style="success" %}
 All assets are automatically versioned, making it simple to track a project's progress and compare results across different iterations.
-{% endhint %}
+
 
 ## Step 5: Complete an iteration
 
@@ -95,7 +95,7 @@ iteration.complete()
 
 {% hint style="success" %}
 This signals that a phase or task is finished, helping track progress and letting others know it's ready for review or the next steps.
-{% endhint %}
+
 
 You may revisit the details of the iteration for a retrospective. If satisfied, you can summarize your outcomes or start another iteration.&#x20;
 
@@ -141,8 +141,8 @@ iteration.log(model, section="Model Experiment #1")
 iteration.complete()
 </code></pre>
 
-{% hint style="info" %}
+
 The above is just an example of how to perform various actions. The best practice is to have one file (or notebook) per phase of the Project.&#x20;
-{% endhint %}
+
 
 View the [Python API Reference Docs ](https://api-docs.vectice.com/)for more information on how to use Vectice API.

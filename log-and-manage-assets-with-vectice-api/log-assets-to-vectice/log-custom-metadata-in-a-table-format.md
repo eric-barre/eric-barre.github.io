@@ -4,7 +4,7 @@ A Vectice `Table` wraps a pandas dataframe into a table format, which you can th
 
 {% hint style="warning" %}
 You should not use `Table` to store important or sensitive information. `Table` is for storing low sensitive information that may support your documentation efforts.
-{% endhint %}
+
 
 For example, if you wish to log a few rows of additional low sensitive information not captured in the dataset, you can utilize `Table` to log and document them into Vectice. See below for a code example:
 
@@ -24,8 +24,8 @@ table = Table(prompt_data_input_output, name="prompt_data")
 iteration.log(table)
 ```
 
-{% hint style="info" %}
+
 `Table()`has a maximum capacity of 100 rows and 20 columns.
-{% endhint %}
+
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-04-02 at 1.56.15 PM.png" alt=""><figcaption></figcaption></figure>

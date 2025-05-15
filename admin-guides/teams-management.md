@@ -2,9 +2,9 @@
 
 **Teams** in Vectice simplify user management by allowing administrators to group users with similar responsibilities, assign workspace roles efficiently, and streamline collaboration. Designed with enterprise needs, Teams make managing permissions and responsibilities across workspaces intuitive and scalable.
 
-{% hint style="info" %}
+
 Vectice seamlessly integrates with your enterprise SSO/LDAP system for efficient team management.
-{% endhint %}
+
 
 With Teams, you can:
 

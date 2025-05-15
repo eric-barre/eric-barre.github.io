@@ -6,9 +6,9 @@ Vectice makes it easy to work together seamlessly. With comments, reviews, and f
 
 We offer a standard commenting feature that lets team members share ideas and feedback directly in documents. Add notes or questions without leaving the page, making collaboration easy and keeping discussions focused.
 
-{% hint style="info" %}
+
 You will receive in-app and email notifications for new comments and replies to stay updated with team communication.
-{% endhint %}
+
 
 To add comments, simply highlight the relevant section and select the comments button. Enter your comment in the provided space and submit. This is a straightforward approach for team members to contribute insights.
 
@@ -26,9 +26,9 @@ Vectice simplifies collaboration through easy-to-use review and comments feature
 * Share phase results with stakeholders.
 * Gather feedback from stakeholders and subject-matter experts.&#x20;
 
-{% hint style="info" %}
+
 To request reviews, a phase must have an owner. Phase Owners can ask any workspace member for reviews.
-{% endhint %}
+
 
 To initiate a review, **select the Reviews tab** within your phase and select **Request a review**.&#x20;
 

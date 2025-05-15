@@ -8,11 +8,11 @@ After logging your datasets to Vectice, you can retrieve the dataset's metadata 
 
 A `Dataset Version Representation` shows information about a specific version of a dataset from the Vectice app. It makes it easier to get and read this information through the API.
 
-{% hint style="info" %}
+
 A dataset version ID starts with 'DTV-XXX'. Retrieve the ID in the Vectice App, then use the ID with the following methods to get the dataset version:
 
 `connect.dataset_version(`'DTV-XXX'`)` or `connect.browse(`'DTV-XXX')
-{% endhint %}
+
 
 ```python
 import vectice
@@ -33,11 +33,11 @@ After logging your models to Vectice, you can retrieve the model's metadata usin
 
 A `Model Version Representation` shows information about a specific version of a model from the Vectice app. It makes it easier to get and read this information through the API.
 
-{% hint style="info" %}
+
 A model version ID starts with 'MDV-XXX'. Retrieve the ID in the Vectice App, then use the ID with the following methods to get the model version:
 
 `connect.model_version(`'MDV-XXX'`)` or `connect.browse(`'MDV-XXX')
-{% endhint %}
+
 
 ```python
 import vectice

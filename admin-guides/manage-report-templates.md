@@ -8,9 +8,9 @@ Vectice provides a library of standard model documentation templates to help str
 
 Vectice templates are ready to use for report generation. There are also various ways you can reuse them and create your own report templates in Vectice.
 
-{% hint style="info" %}
+
 You need to be an Admin in Vectice to manage report templates.
-{% endhint %}
+
 
 #### 1. Re-use and customize a Vectice template
 
@@ -23,9 +23,9 @@ We recommend to start from a provided template for standard model documentation.
 * Customize the template as needed by applying styles, adding sections, Macros or Ask AI prompts
 * Change the access level to Organization-shared if you want to make it available to all your colleagues, or keep it as Personal if you want to keep it for your personal use&#x20;
 
-{% hint style="info" %}
+
 You can also duplicate and re-use your own templates to customize them for each team model use case
-{% endhint %}
+
 
 {% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FbO7GsO4mI4pjZ7XjnzBT%2Fuploads%2FEQFoIABwfHfdc3YY45dk%2Freport%20templates%200325.mp4?alt=media&token=5458023a-c4ca-4d58-8f63-b1b848324a5d" %}
 

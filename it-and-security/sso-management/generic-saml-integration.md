@@ -1,8 +1,8 @@
 # Generic SAML integration
 
-{% hint style="info" %}
+
 This guide is for [**Admins**](../../admin-guides/user-management/user-roles-and-permissions.md) who have permission to make these changes.
-{% endhint %}
+
 
 This guide outlines the steps to integrate SSO with Vectice using a generic SAML-based identity provider, focusing on configuring a secure Single Sign-On (SSO) connection.
 

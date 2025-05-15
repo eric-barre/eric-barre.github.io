@@ -12,6 +12,5 @@ Each team can uniquely benefit from Vectice's features. Whether you're in Data S
 
 
 
-{% hint style="info" %}
+
 Still not sure where to start? We recommend exploring the [Quickstart project](quickstart-auto-document-your-work.md) to get acquainted with Vectice. Don’t have an account yet? Begin your [**FREE TRIAL** ](https://trial.vectice.com/sign-up?utm_source=productdoc)today.
-{% endhint %}

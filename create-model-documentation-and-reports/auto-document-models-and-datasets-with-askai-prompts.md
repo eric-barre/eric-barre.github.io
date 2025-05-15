@@ -8,9 +8,9 @@
 
 Below, we have crafted some basic prompts to get you started auto-documenting with AskAI.&#x20;
 
-{% hint style="info" %}
+
 To generate documentation based on your assets and phases, use AskAI's "Ask me anything" feature and use the `/`character to select the desired assets or phrases.
-{% endhint %}
+
 
 ### Summarize model
 
@@ -72,9 +72,9 @@ Explain what feature engineering and transformations that happened between those
 
 The following prompt allows you to pass a table or CSV file directly into the prompt, enabling AskAI to analyze and summarize the data seamlessly. This option is ideal for generating insights, summaries, or comparisons based on structured data.
 
-{% hint style="info" %}
+
 Use the "**/"** or "**."** character to effortlessly autocomplete prompts while typing, ensuring smooth and accurate asset integration.
-{% endhint %}
+
 
 <figure><img src="../.gitbook/assets/2025-01-22_13-05-34 (1).gif" alt=""><figcaption></figcaption></figure>
 
@@ -86,9 +86,9 @@ Use the "**/"** or "**."** character to effortlessly autocomplete prompts while 
 
 Alternatively, prompts can be found and inserted within macros. These prompts tend to be more intricate and often contain detailed expectations for the output, which are crucial for generating comprehensive documentation. Below are a few examples.
 
-{% hint style="info" %}
+
 You can customize and modify predefined Macro Prompts to align them with your specific needs and requirements.
-{% endhint %}
+
 
 ### **Prompt 1** <a href="#h-1887" id="h-1887"></a>
 

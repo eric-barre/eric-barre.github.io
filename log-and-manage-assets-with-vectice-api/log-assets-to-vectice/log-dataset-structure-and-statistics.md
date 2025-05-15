@@ -4,11 +4,11 @@ Data scientists can document dataset structure and statistics in Vectice by usin
 
 Most common statistics are currently not captured with Spark Dataframes.
 
-{% hint style="info" %}
+
 Statistics will be captured for the first 100 columns of your dataframe. \
 \
 Statistics are **not** captured if the numbers of rows are below 100 to keep the data anonymous. The Org Admin can adjust this threshold in organization settings.
-{% endhint %}
+
 
 Here are the automatically captured statistics based on column types in your dataframes.&#x20;
 

@@ -2,9 +2,9 @@
 
 To manage a workspace, you must have an **Admin** or a **Workspace Manager** role. Your Workspace role is displayed in the workspace members area within your settings.
 
-{% hint style="info" %}
+
 Although Admins can manage a workspace, they can not manage workspace members unless assigned the Workspace Manager role.
-{% endhint %}
+
 
 ## Add workspace members
 
@@ -21,9 +21,9 @@ You can then begin typing the **email address** of the member you want to add to
 
 ## Workspace settings
 
-{% hint style="info" %}
+
 **Only** Workspace Managers and Admins have permission to update workspace settings.
-{% endhint %}
+
 
 To view or update workspace settings, select the **Workspace Settings** tab within your workspace. There you can manage your workspace settings.
 

@@ -23,9 +23,9 @@ Security is our top priority. Here's how we ensure your data remains secure:
 * **Regular security audits:** We conduct regular penetration testing and vulnerability assessments to identify and address any potential security risks.
 * **Secure infrastructure:** Our infrastructure is hosted in secure data centers with industry-standard security measures.
 
-{% hint style="info" %}
+
 Learn more about the security measures implemented by Vectice in [our dedicated section](../security/).
-{% endhint %}
+
 
 ### **Transparency and control**
 

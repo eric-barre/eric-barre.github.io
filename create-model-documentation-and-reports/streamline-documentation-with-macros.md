@@ -10,9 +10,9 @@
 
 ## 🧩 Available Pre-defined Macros
 
-{% hint style="info" %}
+
 You can easily create and customize your macros directly from the admin menu, customizing them to suit your specific needs.
-{% endhint %}
+
 
 Here are the main macros available in Vectice, each designed to meet different documentation needs:
 
@@ -20,9 +20,9 @@ Here are the main macros available in Vectice, each designed to meet different d
 
 Quickly document new assets with standardized fields for name, type, and description, ensuring all asset entries are clear and uniform.
 
-{% hint style="info" %}
+
 _<mark style="color:orange;">**Example Usage:**</mark>_ When a new data source is added to a project, use the "Data overview" macro to instantly capture a general summary of the new data.
-{% endhint %}
+
 
 #### Model Version Macros
 
@@ -36,10 +36,10 @@ _<mark style="color:orange;">**Example Usage:**</mark>_ When a new data source i
 
 Use the general macro to capture key project details like objectives, timelines, team members, and phase-specific updates. It simplifies onboarding, keeps stakeholders informed, and ensures consistent, relevant updates throughout the project.
 
-{% hint style="info" %}
+
 _<mark style="color:orange;">**Example Usage:**</mark>_ At the start of the project documentation, use the Project Information Macro to set up the project’s essential information, ensuring everyone has a clear understanding of the project’s scope and goals.\
 
-{% endhint %}
+
 
 <table><thead><tr><th width="225">Macro</th><th>Description</th><th data-hidden>Requirement</th></tr></thead><tbody><tr><td>Project info</td><td>Inserts your project's details and description.</td><td></td></tr><tr><td>Project structure</td><td>Displays an overview of your project's structure.</td><td></td></tr><tr><td>Project title</td><td>Displays the title of your project.</td><td></td></tr><tr><td>Insert phase content</td><td>Inserts information from your project's phase documentation.</td><td></td></tr><tr><td>Project stakeholders</td><td>Displays your project and model stakeholders.</td><td></td></tr></tbody></table>
 
@@ -51,9 +51,9 @@ These macros offer specialized functionality for enhanced documentation.
 
 ## Macro requirements
 
-{% hint style="info" %}
+
 **Note:** Some macros have requirements to work properly. For example, the "Insert phase content" macro requires content in the selected phase to display information.
-{% endhint %}
+
 
 Here are a few examples of macro requirements and tips to ensure you have the necessary information for proper macro use:
 
@@ -99,9 +99,9 @@ To use this Macro, the Model version must have metrics logged to Vectice either 
 
 To use this Macro, the Model requires an upload of the feature importance graph to the Vectice app, or log it from the API. To add attachments via API, view our [Log attachments and notes](../log-and-manage-assets-with-vectice-api/log-assets-to-vectice/log-attachments-and-notes.md) guide.
 
-{% hint style="info" %}
+
 The API requires you to name the logged graph `feature_importance.png`.
-{% endhint %}
+
 
 To add a graph in the Vectice app, select the Models tab, pick your model and its version, and beside "Attachments" select the **Add** button.
 

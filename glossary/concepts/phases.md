@@ -4,9 +4,9 @@
 
 Phases help organize project objectives, ensure best practices, maintain consistency, and document knowledge.
 
-{% hint style="info" %}
+
 Phases can represent stages of the Data Science project lifecycle, like Business Understanding, Data Preparation, Modeling, Evaluation, and Deployment.
-{% endhint %}
+
 
 ## Phase Features
 

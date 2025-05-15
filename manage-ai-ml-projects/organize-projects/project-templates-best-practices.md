@@ -16,7 +16,7 @@ You can modify your project template by changing phases, requirements, and docum
 
 {% hint style="success" %}
 Once you have a customized project template that works for your organization, we recommend that you duplicate it for future projects.
-{% endhint %}
+
 
 ## #2 Color code text placeholders in templates to display information
 
@@ -30,9 +30,9 @@ In the default template, phase details are in blue, which you can edit or delete
 
 Once you have a project template suitable for multiple projects, you can use the "Duplicate Project" feature. This creates a new project while keeping the original template's phases, requirements, and documentation, saving you from starting from scratch. To duplicate a project, go to Project Settings > Duplicate Project.
 
-{% hint style="info" %}
+
 When you duplicate a project, the new project will not include the iterations, models, and datasets from the original.
-{% endhint %}
+
 
 ## #4 Use common workspaces to share project templates
 
@@ -52,6 +52,6 @@ For instance, the data preparation phase in the default template already has the
 
 When making a project template for a specific group, you can transfer the customized template to the desired workspace. This move keeps all project information, like datasets, models, code, and iterations. It lets you pre-upload datasets and other assets into the template before sharing.
 
-{% hint style="info" %}
+
 You can transfer projects only to workspaces where you are a member.
-{% endhint %}
+

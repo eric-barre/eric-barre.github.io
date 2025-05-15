@@ -1,8 +1,8 @@
 # Installation guide
 
-{% hint style="info" %}
+
 The installation guide details the installation on a cloud environment. Contact us at support@vectice.com for help on a custom installation.
-{% endhint %}
+
 
 ## Deploy the monitoring stack
 
@@ -61,9 +61,9 @@ helm --kube-context $CONTEXT -n monitoring upgrade prometh prometheus-community/
 
 ### Undeploy the monitoring stack
 
-{% hint style="info" %}
+
 This will delete the monitoring stack installed
-{% endhint %}
+
 
 ```sh
 helm --kube-context $CONTEXT -n monitoring uninstall prometh
@@ -77,9 +77,9 @@ First, grab the public IP address assigned to your application. Then, head over 
 
 Next, customize your Grafana instance with some dashboards. These dashboards will help you visualize and understand how your application is performing.
 
-{% hint style="info" %}
+
 Vectice can provide you grafana dashboards templates on demand.
-{% endhint %}
+
 
 ### Adding other datasources
 
@@ -87,6 +87,6 @@ If you're using Google Cloud Platform (GCP), you can set up GCP monitoring as a 
 
 Ensure you have a service account with the proper permissions. You can call it "grafana-exporter" and permit it to view monitoring data (the "Monitoring Viewer" role). Then, create a JSON key and import it into Grafana. This will allow Grafana to access the monitoring data from GCP.
 
-{% hint style="info" %}
+
 If you want to personalize your Grafana experience, you can easily set your preferred dashboard as the default one you see when you log in. Just go to your user profile settings and make the switch."
-{% endhint %}
+

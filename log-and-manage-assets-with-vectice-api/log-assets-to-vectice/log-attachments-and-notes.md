@@ -14,9 +14,9 @@ iteration.log("path/data_analysis_chart.png")
 iteration.log("This is a good model output.")
 ```
 
-{% hint style="info" %}
+
 You can have multiple images and notes for each iteration.
-{% endhint %}
+
 
 ## Dataset attachments
 

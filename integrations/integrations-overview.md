@@ -25,9 +25,9 @@ Vectice complements Watsonx by:
 
 Streamline development using Vectice alongside your notebooks, IDEs, and CI/CD tools for a cohesive coding and deployment experience.
 
-{% hint style="info" %}
+
 You can integrate Vectice within these environments by [installing the Vectice library package](../log-and-manage-assets-with-vectice-api/connect-to-api.md).
-{% endhint %}
+
 
 <table data-header-hidden><thead><tr><th></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><ul><li>Jupyter notebook</li><li>RStudio </li><li>VS Code </li><li>GitHub Actions</li><li>Databricks</li></ul></td><td><ul><li>Jenkins</li><li>Collab notebook</li><li>Python IDE</li><li>Atom</li><li>Sagemaker</li></ul></td><td></td></tr></tbody></table>
 
@@ -79,9 +79,9 @@ Documentation is compatible with Google Docs, supporting imports from Word forma
 
 Connect Vectice with leading data storage platforms to keep your data secure and accessible, enabling seamless data handling and compliance.
 
-{% hint style="info" %}
+
 To learn more about the code wrappers, visit our [API reference docs](https://api-docs.vectice.com/reference/vectice/).
-{% endhint %}
+
 
 <table data-header-hidden><thead><tr><th></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><p></p><ul><li>Snowflake</li><li>AWS S3</li><li>Google Cloud Storage</li><li>Azure Blob Storage</li><li>Redshift </li><li>Synapse </li></ul></td><td><p></p><ul><li>Databricks</li><li>BigQuery</li><li>SparkTable</li><li>Delta Table</li><li>Postgres</li><li>Amazon Redshift</li></ul></td><td></td></tr></tbody></table>
 
@@ -106,9 +106,9 @@ Please refer to the dedicated [installation guide](../log-and-manage-assets-with
 
 Use Vectice in R with the `reticulate` package, bringing Vectice’s API capabilities directly to your R workflows. It’s a smooth, flexible way to extend Vectice into R.
 
-{% hint style="info" %}
+
 Understand more about the [**reticulate**](https://cran.r-project.org/web/packages/reticulate/vignettes/calling_python.html) package.
-{% endhint %}
+
 
 Please refer to the dedicated [installation guide](../log-and-manage-assets-with-vectice-api/connect-to-api.md#install-vectice) for installing `reticulate` and view the official [Vectice Python API documentation](https://api-docs.vectice.com) for the latest details and code examples.
 

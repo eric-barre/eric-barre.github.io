@@ -30,6 +30,6 @@ To learn more about Macros, view our [Streamline documentation with Macros](../.
 
 With AskAI, documentation becomes faster, smarter, and more collaborative, enabling teams to focus on analysis and insights rather than manual reporting tasks.
 
-{% hint style="info" %}
+
 For more detailed information, view our [Auto-document models with AskAI ](../../create-model-documentation-and-reports/auto-document-models-and-datasets-with-askai-prompts.md)guide.
-{% endhint %}
+

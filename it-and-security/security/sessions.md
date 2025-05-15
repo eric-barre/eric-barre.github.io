@@ -20,9 +20,9 @@ This attribute controls when the browser sends the cookie and requests to the sa
 
 Keycloak is used to manage session timeouts to ensure your account security. We understand that protecting your data is paramount, and Keycloak employs several mechanisms to achieve this:
 
-{% hint style="info" %}
+
 Values for the following parameters can be customized to match your needs.
-{% endhint %}
+
 
 * **Idle session:** Expires after inactivity to prevent unauthorized access on unattended devices.
 * **Maximum session lifespan:** Enforces a session expiration regardless of activity for added security.

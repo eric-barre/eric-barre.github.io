@@ -2,9 +2,9 @@
 
 ## Load balancing with enhanced security
 
-{% hint style="info" %}
+
 For self-hosted Vectice deployments, we recommend using a secure load-balancing solution such as [Application Gateway (Azure)](https://learn.microsoft.com/en-us/azure/application-gateway/overview), [AWS Load Balancer](https://docs.aws.amazon.com/eks/latest/userguide/aws-load-balancer-controller.html), or [Google Kubernetes Engine Load Balancer](https://cloud.google.com/kubernetes-engine/docs/concepts/ingress).  Our SaaS offering comes pre-configured with this setup.
-{% endhint %}
+
 
 ### Simplified traffic management and enhanced security
 

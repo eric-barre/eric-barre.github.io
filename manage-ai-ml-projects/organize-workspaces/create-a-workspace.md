@@ -1,8 +1,8 @@
 # Create a workspace
 
-{% hint style="info" %}
+
 Admins can allow all users in an organization to create workspaces. Otherwise, only Admins can do so.
-{% endhint %}
+
 
 There are two ways to create workspaces. You can either:
 

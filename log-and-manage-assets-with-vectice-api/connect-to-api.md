@@ -43,9 +43,9 @@ reticulate::py_install("vectice==<desired_version_number>", pip = TRUE)
 
 The Vectice API seamlessly integrates with your favorite notebook or IDE, as well as popular AI tools, platforms, and frameworks. Once connected to the Vectice App using the Vectice API, you can continuously document assets, progress, and learnings.&#x20;
 
-{% hint style="info" %}
+
 Your API key is unique to you and should not be shared with your colleagues.&#x20;
-{% endhint %}
+
 
 **To create an API key:**
 

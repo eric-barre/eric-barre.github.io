@@ -8,9 +8,9 @@ Once you start logging assets, you can manage them seamlessly through the API or
 {% tab title="Vectice API" %}
 Once you start an iteration in the API, its status automatically changes to "In progress." Once you are complete, you can update your iteration status by marking it complete.&#x20;
 
-{% hint style="info" %}
+
 Once an iteration is complete, you cannot reorganize the assets in the App. To reorganize, change the iteration status back to **In Progress** in the app.
-{% endhint %}
+
 
 {% code fullWidth="true" %}
 ```python
@@ -104,9 +104,9 @@ You can delete sections in the **Web App** by selecting the menu button next to 
 
 ## Move assets across sections in App
 
-{% hint style="info" %}
+
 You can customize sections to fit your unique needs (e.g., organize assets, outline your workflow, etc.).
-{% endhint %}
+
 
 Drag and drop assets between sections to rearrange them as you like.
 

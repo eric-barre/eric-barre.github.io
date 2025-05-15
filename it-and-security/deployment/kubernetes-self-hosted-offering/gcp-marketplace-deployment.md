@@ -15,14 +15,14 @@ You can then follow the procedure as described below.
 
 Next, install the cert-manager and cert-manager-csi-driver applications on the cluster.
 
-{% hint style="info" %}
+
 Cert-manager is used to implement SSL for internal communication between Vectice pods, Cert-manager-csi-driver will attach a CSI volume containing the certificates to the Vectice pods
-{% endhint %}
+
 
 ```bash
-helm --kube-context $CONTEXT repo add jetstack https://charts.jetstack.io 
-helm --kube-context $CONTEXT repo update 
-helm --kube-context $CONTEXT install cert-manager jetstack/cert-manager -n cert-manager --create-namespace --set installCRDs=true 
+helm --kube-context $CONTEXT repo add jetstack https://charts.jetstack.io
+helm --kube-context $CONTEXT repo update
+helm --kube-context $CONTEXT install cert-manager jetstack/cert-manager -n cert-manager --create-namespace --set installCRDs=true
 helm --kube-context $CONTEXT install cert-manager-csi-driver jetstack/cert-manager-csi-driver --create-namespace -n cert-manager
 ```
 
@@ -55,9 +55,9 @@ kubectl --context $CONTEXT create secret docker-registry vectice-gcr-secrets -n 
 
 Please view the [Vectice GKE deployment page](https://console.cloud.google.com/marketplace/product/vectice-public/vectice?hl=en-GB) for more information.
 
-{% hint style="info" %}
+
 If you already agreed to the terms and conditions, CONFIGURE will appear instead of GET STARTED and you will be redirected to the deployment form
-{% endhint %}
+
 
 <figure><img src="../../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
@@ -71,7 +71,7 @@ You should see the progress on the submenu Applications of your Kubernetes Clust
 Once this is done, retrieve the Vectice Ingress IP. **Note**: this might take up to 5 minutes to appear:
 
 ```bash
-kubectl --context $CONTEXT get ingress vectice -n vectice 
+kubectl --context $CONTEXT get ingress vectice -n vectice
 ```
 
 The expected output should look like this, below are example values:
@@ -83,9 +83,9 @@ vectice   <none>   vectice.my-company.com   2.3.4.5         80, 443   211d
 
 Finally, add the A record as a new entry in your DNS resolver.
 
-{% hint style="info" %}
+
 Learn more about [A DNS records](https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/).
-{% endhint %}
+
 
 In this example, the A record would look like below.
 

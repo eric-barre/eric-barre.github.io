@@ -1,8 +1,8 @@
 # Update a user role in your organization
 
-{% hint style="info" %}
+
 This guide is for **Admins** who have permission to make these changes.
-{% endhint %}
+
 
 To update users' organization roles, navigate to your organization's users list by clicking your profile icon and selecting **Manage users**.
 

@@ -24,8 +24,8 @@ We engage in annual penetration testing, where ethical hackers simulate real-wor
 
 ## Security review
 
-{% hint style="info" %}
+
 See [our dedicated page](security-updates.md) for details on security updates.
-{% endhint %}
+
 
 Our security posture is continuously evaluated through internal security reviews. These reviews thoroughly examine our security controls, policies, and procedures to ensure their effectiveness. Additionally, we may engage external security auditors to provide an independent assessment of our security practices.
