@@ -6,9 +6,8 @@ description: Auto-document with Vectice
 
 Vectice is the go-to Auto-Documentation software for machine learning projects and their governance. Use [Autolog](introduction/vectice-overview/autolog.md) to log your data science assets using one line of code. For financial institutions, you can use [custom documentation templates](introduction/vectice-overview/vectice-for-financial-services.md) to streamline model reporting and validation.&#x20;
 
-Watch our Product Overview video to learn more!
-
-{% url="https://youtu.be/STf39dKewVg?ref=0" %}
+[Watch our Product Overview video to learn more!]
+(https://youtu.be/STf39dKewVg?ref=0)
 
 We enable organizations to:
 
