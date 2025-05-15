@@ -26,7 +26,11 @@ We recommend to start from a provided template for standard model documentation.
 
 You can also duplicate and re-use your own templates to customize them for each team model use case
 
-<video src="https://youtu.be/W1o0T9clQJU" width="320" height="240" controls></video>
+<iframe width="560" height="315"
+src="https://youtu.be/W1o0T9clQJU"
+frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
 
 #### 2. Upload your own template
 
